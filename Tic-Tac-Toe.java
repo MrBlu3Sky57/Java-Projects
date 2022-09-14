@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 class TicTacToe {
     static final int EMPTY = 0;
     static final int CROSS = 1;
     static final int CIRCLE = 2;
+    static final int TAKEN = 3;
 
     public static int[][] createBoard(int length) {
         int[][] board = new int[length][length];
@@ -32,7 +35,12 @@ class TicTacToe {
         }
     }
 
-    public static int placeMove(int[][] board, int xCoordinate) {
+    public static int placeMove(int[][] board, int xCoordinate, int yCoordinate, int length) {
+       
+            
+        
+
+        
         return 1;
     }
     public static void main(String[] args) {

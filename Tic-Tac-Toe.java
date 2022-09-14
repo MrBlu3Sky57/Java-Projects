@@ -1,4 +1,4 @@
-class main {
+class TicTacToe {
     static final int EMPTY = 0;
     static final int CROSS = 1;
     static final int CIRCLE = 2;
